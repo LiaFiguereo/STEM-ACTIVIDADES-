@@ -34,36 +34,16 @@ Preparar 20 kits iguales para que funcionen sin depender del equipamiento del lu
 - Cuatro sensores VL53L0X y cuatro conjuntos de servo/soporte pan-tilt para las estaciones compartidas.
 - Código de ejemplo precargado y una hoja de misión por equipo. Los retos sugeridos son semáforo/alerta del rover, juego de reflejos y clave sonora de una misión.
 
-La lista de compra electrónica está en la sección **Compra en AliExpress** de [propuesta-sistema-raspberry-pi-4.md](./propuesta-sistema-raspberry-pi-4.md).
+## Compra en Amazon: kits integrados para Actividades STEM
 
-## Compra en AliExpress: kits para Actividades STEM
+En lugar de adquirir piezas sueltas y empaquetarlas manualmente, se seleccionaron kits educativos integrados basados en **ESP32 con USB-C**. Cada kit viene en su propio estuche organizador compartimentado con manuales, ejemplos de código precargados y soporte para **Arduino IDE y MicroPython**.
 
-Las cantidades siguientes cubren 20 kits de participantes y repuestos para continuar una visita si se pierde o falla una pieza pequeña. Elegir un único modelo de ESP32 y comprar los cables de datos que correspondan a su conector; no mezclar placas micro-USB y USB-C sin separar claramente los cables.
+| Material | Cantidad recomendada | Contenido y uso en las estaciones | Precio exacto (USD) | Enlace directo Amazon |
+| --- | ---: | --- | ---: | --- |
+| **ELEGOO ESP-32 Kit de inicio súper avanzado (USB-C)** | 10 a 14 kits | Kit completo para equipos de trabajo: ESP32 USB-C, pantalla OLED, joystick, sensor ultrasónico HC-SR04, DHT11, PIR, teclado matricial, RFID, motor paso a paso, servo micro, módulo de relé, protoboards, fuente de alimentación y más de 200 componentes en estuche rígido. | **US$ 31.44** *(oferta) / US$ 36.99* | [Ver en Amazon](https://www.amazon.com/dp/B0FR4RGDYN) |
+| **DIYables Kit de inicio ESP32 V2** | 6 a 10 kits | Kit para estaciones avanzadas: ESP32 con placa de expansión GPIO, pantalla LCD 1602 I2C, teclado matricial, RFID RC522, sensor ultrasónico, servo SG90, buzzer, LEDs y sensores en estuche organizador. | **US$ 39.99** | [Ver en Amazon](https://www.amazon.com/dp/B0FH4C3DJV) |
 
-| Material | Cantidad | Uso | Enlace de búsqueda |
-| --- | ---: | --- | --- |
-| ESP32 DevKit con pines ya soldados | 24 | 20 kits y 4 repuestos | [Buscar ESP32 DevKit](https://www.aliexpress.com/w/wholesale-esp32-devkit.html) |
-| Cable USB **de datos**, según el conector de la placa | 28 | Programación y alimentación; comprobar que no sea solo de carga | [Buscar cable USB de datos](https://www.aliexpress.com/w/wholesale-usb-data-cable.html) |
-| Protoboard mini o de 400 puntos | 24 | Una por kit y repuestos | [Buscar protoboard](https://www.aliexpress.com/w/wholesale-400-point-breadboard.html) |
-| LEDs de 5 mm surtidos | 300 | Semáforo, alertas y repuestos | [Buscar LEDs de 5 mm](https://www.aliexpress.com/w/wholesale-5mm-led-assorted.html) |
-| Resistencias de 220-330 ohmios, 1/4 W | 300 | Limitación de corriente para LEDs | [Buscar resistencias 220 ohm](https://www.aliexpress.com/w/wholesale-220-ohm-resistor.html) |
-| Kit surtido de resistencias de 1/4 W | 1 | Valores de apoyo para retos y reparaciones | [Buscar kit de resistencias](https://www.aliexpress.com/w/wholesale-1-4w-resistor-kit.html) |
-| Pulsadores táctiles de 6 x 6 mm | 150 | Dos por kit y repuestos | [Buscar pulsadores táctiles](https://www.aliexpress.com/w/wholesale-6x6mm-tactile-push-button.html) |
-| Buzzers pasivos de 3.3 V | 30 | Retos de sonido y alarmas cortas | [Buscar buzzer pasivo](https://www.aliexpress.com/w/wholesale-3.3v-passive-buzzer.html) |
-| Jumpers macho-macho, 20 cm | 6 juegos de 120 | Cableado principal de protoboard | [Buscar jumpers macho-macho](https://www.aliexpress.com/w/wholesale-dupont-male-to-male-20cm.html) |
-| Jumpers macho-hembra, 20 cm | 3 juegos de 120 | LCD, sensores y módulos con conector hembra | [Buscar jumpers macho-hembra](https://www.aliexpress.com/w/wholesale-dupont-male-to-female-20cm.html) |
-| Jumpers hembra-hembra, 20 cm | 3 juegos de 120 | Adaptación entre módulos y pruebas | [Buscar jumpers hembra-hembra](https://www.aliexpress.com/w/wholesale-dupont-female-to-female-20cm.html) |
-| LCD I2C 16 x 2 con pines soldados | 8 | Seis estaciones y dos repuestos | [Buscar LCD I2C 1602](https://www.aliexpress.com/w/wholesale-i2c-1602-lcd.html) |
-| VL53L0X con pines soldados | 8 | Seis estaciones y dos repuestos | [Buscar VL53L0X](https://www.aliexpress.com/w/wholesale-vl53l0x.html) |
-| Servo de 9 g | 8 | Estación pan-tilt y repuestos | [Buscar servo 9 g](https://www.aliexpress.com/w/wholesale-mg90s-metal-gear-servo.html) |
-| Soporte pan-tilt compatible con servo de 9 g | 5 | Cuatro estaciones y repuesto | [Buscar soporte pan-tilt](https://www.aliexpress.com/w/wholesale-sg90-pan-tilt-bracket.html) |
-| *Power bank* de 5 V/2 A o superior | 22 | Alimentación portátil de los kits | [Buscar power bank 5V 2A](https://www.aliexpress.com/w/wholesale-5v-2a-power-bank.html) |
-| Fuente USB-C para protoboard, 3.3/5 V, con protección de corto | 24 | Alimenta los rieles de práctica; una por kit y repuestos | [Buscar fuente USB-C protegida para protoboard](https://www.aliexpress.com/w/wholesale-usb-c-breadboard-power-supply-short-circuit-protection.html) |
-| Regleta con protección y extensión | 2 de cada una | Carga segura de laptops y kits | [Buscar regleta con protección](https://www.aliexpress.com/w/wholesale-surge-protector-power-strip.html) |
-| Estuche rígido o bolsas con cierre, numerados | 24 | Un kit completo por compartimento | [Buscar estuche para electrónica](https://www.aliexpress.com/w/wholesale-electronics-project-case.html) |
-| Bridas, cinta aislante y etiquetas | 1 paquete de cada uno | Orden, identificación y reparación ligera | [Buscar consumibles electrónicos](https://www.aliexpress.com/w/wholesale-electronics-cable-management-kit.html) |
-
-Para la **Aula móvil RDX**, llevar 14 laptops reacondicionadas de 11-12 pulgadas para formar hasta 14 equipos de tres. Si el centro solicita trabajo estrictamente por parejas, completar el lote con seis laptops más, para un total de 20. Incluir cargadores, fundas acolchadas y un maletín. Es preferible obtener esos equipos localmente con prueba de batería y garantía, antes que importarlos por AliExpress; los componentes pequeños de la tabla sí son adecuados para compra en lote.
+Para la **Aula móvil RDX**, llevar 14 laptops reacondicionadas de 11-12 pulgadas para formar hasta 14 equipos de tres. Si el centro solicita trabajo estrictamente por parejas, completar el lote con seis laptops más, para un total de 20. Incluir cargadores, fundas acolchadas y un maletín. Es preferible obtener esos equipos localmente con prueba de batería y garantía; los kits integrados de ELEGOO y DIYables de la tabla cubren la totalidad de los componentes electrónicos necesarios para todas las estaciones.
 
 ### Fuente USB-C protegida para la protoboard
 
